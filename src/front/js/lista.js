@@ -50,7 +50,7 @@ fetch("http://localhost:8080/api/zupescolafull/professor")
         <tr>
           <th scope="row">${values.id}</td>
           <td>${values.nome}</td>
-          <td>${values.cargahoraria}</td>
+          <td>${values.idade}</td>
           <td>${values.curso.nome}</td>
           <td>R$${values.salario}</td>
         </tr>
